@@ -7,7 +7,7 @@ public class Entity
     public Entity()
     {
     }
-
+    
     public Entity(int id) : this()
     {
         Id = id;

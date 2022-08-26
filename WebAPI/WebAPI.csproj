@@ -19,15 +19,14 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-			
-  </ItemGroup>
+	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Persistence\Persistence.csproj" />
+	  <ProjectReference Include="..\src\demoProjects\rentACar\Persistence\Persistence.csproj" />
 	</ItemGroup>
 
 </Project>
